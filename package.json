@@ -1,0 +1,50 @@
+{
+  "name": "js_game_2048",
+  "version": "1.0.0",
+  "description": "Browser-based 2048 puzzle game built with vanilla JavaScript using OOP, DOM manipulation, and event handling.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
+    "lint:js": "eslint \"src/**/*.{js,mjs}\"",
+    "lint:css": "stylelint \"**/*.{css,scss}\"",
+    "lint:html": "linthtml \"**/*.html\""
+  },
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.9.6",
+    "@parcel/transformer-sass": "^2.16.3",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "parcel": "^2.12.0",
+    "prettier": "^3.3.2",
+    "stylelint": "^16.7.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.1.0",
+    "stylelint-scss": "^6.4.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadiiaBulmak/js_game_2048.git"
+  },
+  "keywords": [
+    "javascript",
+    "game",
+    "2048",
+    "puzzle",
+    "browser",
+    "vanilla-js",
+    "DOM",
+    "OOP"
+  ],
+  "author": "Nadiia Bulmak",
+  "bugs": {
+    "url": "https://github.com/NadiiaBulmak/js_game_2048/issues"
+  },
+  "homepage": "https://github.com/NadiiaBulmak/js_game_2048#readme"
+}
