@@ -3,7 +3,7 @@
 A browser-based 2048 game built with vanilla JavaScript, showcasing OOP, DOM manipulation, and event handling for an interactive experience.
 
 
-##🛠️ Technologies Used:
+## 🛠️ Technologies Used:
 - **JavaScript (Vanilla JS)** — game logic and DOM manipulation
 - **Object-Oriented Programming (OOP)** — structured, reusable code
 - **HTML5 & CSS3** — page structure and styling
@@ -14,7 +14,7 @@ A browser-based 2048 game built with vanilla JavaScript, showcasing OOP, DOM man
 - **CSS Animations & Transitions** — smooth interactive effects
 
 
-##🌟 Features:
+## 🌟 Features:
 - **Classic 2048 Gameplay**: Slide numbered tiles to combine them and reach 2048. 🔢
 - **Vanilla JavaScript**: No frameworks, fully built with plain JS. ⚡
 - **Object-Oriented Structure**: Modular and maintainable code using OOP principles. 🏗️
